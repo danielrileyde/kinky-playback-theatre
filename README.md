@@ -1,8 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Kinky Playback Theatre
 
-## Getting Started
+Welcome to the Kinky Playback Theatre project repository!
 
-First, run the development server:
+## About
+
+Kinky Playback Theatre is a collective of 17 members from diverse backgrounds, encompassing various kinky orientations, sexual identities, gender expressions, racial and cultural heritages. Our collective specialises in improvisational playback theatre performances centred around the themes of kink and sexuality.
+
+## Project Overview
+
+This repository houses the codebase for the Kinky Playback Theatre website. The website serves as a platform to showcase our collective's work, share information about upcoming performances, provide resources, and connect with our audience.
+
+## Features
+
+- **Performance Schedule:** Stay updated on our upcoming performances and events.
+- **About Us:** Learn more about the members of our collective and our mission.
+- **Media Gallery:** Explore photos and videos from past performances.
+- **Resources:** Access educational materials, articles, and recommended readings related to kink and sexuality.
+- **Contact Us:** Reach out to us for inquiries, collaboration opportunities, or to share feedback.
+
+## Contributing
+
+We welcome contributions from the community to improve and enhance the website. If you're interested in contributing, please refer to our [Contribution Guidelines](CONTRIBUTING.md) for more information.
+
+## Get Started
+
+To get started with the Kinky Playback Theatre website, follow these steps:
+
+1. **Clone the Repository:**
+
+   ```
+   git clone https://github.com/your-username/kinky-playback-theatre.git
+   ```
+
+2. **Run the development server:**
 
 ```bash
 npm run dev
@@ -14,23 +44,19 @@ pnpm dev
 bun dev
 ```
 
+3. **Open the Website:**
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Support
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+If you encounter any issues or have questions about the Kinky Playback Theatre website, please [open an issue](https://github.com/your-username/kinky-playback-theatre/issues) on GitHub, and we'll be happy to assist you.
 
-## Learn More
+## License
 
-To learn more about Next.js, take a look at the following resources:
+This project is licensed under the [MIT License](LICENSE).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+For further inquiries or collaborations, feel free to contact us at [email@example.com](mailto:email@example.com).
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you for your interest in Kinky Playback Theatre! We're excited to share our performances and engage with our audience.
