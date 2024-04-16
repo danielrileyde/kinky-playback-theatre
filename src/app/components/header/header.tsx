@@ -1,11 +1,12 @@
 import Link from "next/link";
+import styles from "./header.module.css";
 
 export default function Header() {
   return (
-    <header className="header">
-      <h2 className="logoName">Kinky Playback Theatre</h2>
-      <nav className="navbar">
-        <ul>
+    <header className={styles.header}>
+      <h1 className={styles.logo}>Kinky Playback Theatre</h1>
+      <nav className={styles.navbar}>
+        <ul className={styles.ul}>
           <li>
             <Link href="/about">About</Link>
           </li>

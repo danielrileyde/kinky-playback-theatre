@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  color: aliceblue;
+  background-color: #f4f4f4;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  align-items: center;
+  left: 0;
+}
+
+.logo {
+  color: #000000;
+  margin: auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navbar {
+  color: #000000;
+  margin-left: auto;
+}
+
+.ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
