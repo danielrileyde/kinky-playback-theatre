@@ -9,7 +9,7 @@ export default function Card({ name, description }: CardProps) {
   return (
     <main className={styles.main}>
       {/* <Image /> */}
-      <h2 className="card__name">{name}</h2>
+      <h3 className="card__name">{name}</h3>
       <p className="card__description">{description}</p>
     </main>
   );

@@ -1,4 +1,7 @@
 .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   background-color: wheat;
   border-radius: 20px;
   height: 200px;
