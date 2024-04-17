@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Header />
-      <Card />
+      <Card name="Daniel Riley-Dittmann" description="Conductor and Actor" />
       <Card />
       <Footer />
     </main>
