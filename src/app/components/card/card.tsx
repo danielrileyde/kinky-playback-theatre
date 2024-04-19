@@ -1,4 +1,4 @@
-// import styles from "./Card.module.css";
+import styles from "./Card.module.css";
 
 interface CardProps {
   className?: string;
@@ -6,5 +6,5 @@ interface CardProps {
 }
 
 export default function Card({ className, children }: CardProps) {
-  return <div className={`card ${className}`}>{children}</div>;
+  return <div className={`${styles.card} ${className}`}>{children}</div>;
 }
