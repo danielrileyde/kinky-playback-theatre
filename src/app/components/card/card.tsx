@@ -1,16 +1,10 @@
-import styles from "./card.module.css";
+// import styles from "./Card.module.css";
 
 interface CardProps {
-  name: string;
-  description: string;
+  className?: string;
+  children: React.ReactNode;
 }
 
-export default function Card({ name, description }: CardProps) {
-  return (
-    <main className={styles.main}>
-      {/* <Image /> */}
-      <h3 className="card__name">{name}</h3>
-      <p className="card__description">{description}</p>
-    </main>
-  );
+export default function Card({ className, children }: CardProps) {
+  return <div className={`card ${className}`}>{children}</div>;
 }

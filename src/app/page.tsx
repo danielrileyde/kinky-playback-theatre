@@ -1,19 +1,25 @@
-import Footer from "./components/footer/footer";
-import Header from "./components/header/header";
-import Card from "./components/card/card";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
 import styles from "./page.module.css";
+import MemberCard from "./components/Card/MemberCard";
+
+const members = [
+  { name: "Daniel Riley-Dittmann", picture: "Hello" },
+  { name: "Tanguy Lacroix", picture: "is it working?" },
+  { name: "Maya Blau", picture: "I Hope so..." },
+  { name: "Sol Lane", picture: "and?" },
+];
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <div>
       <Header />
-      <section className={styles.section}>
-        <Card name="Maya Blau" description="Founder and Actress" />
-        <Card name="Daniel Riley-Dittmann" description="Conductor and Actor" />
-        <Card name="Tanguy Lacroix" description="Musician and Actor" />
-        <Card name="Solenne La" description="Actress" />
-      </section>
+      <main>
+        {members.map((member, index) => (
+          <MemberCard key={index} member={member} />
+        ))}
+      </main>
       <Footer />
-    </main>
+    </div>
   );
 }
