@@ -12,9 +12,9 @@ const members = [
 
 export default function Home() {
   return (
-    <div>
+    <div className={styles.main}>
       <Header />
-      <main>
+      <main className={styles.section}>
         {members.map((member, index) => (
           <MemberCard key={index} member={member} />
         ))}
