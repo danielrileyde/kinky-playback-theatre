@@ -1,4 +1,4 @@
-import styles from "../page.module.css";
+import styles from "./ensemble.module.css";
 import MemberCard from "../components/Card/MemberCard";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
@@ -11,17 +11,18 @@ const members = [
   { name: "Neal Bruewer", picture: "IT WORKS!!!" },
   { name: "Petros Xenios", picture: "IT WORKS!!!" },
   { name: "Evelin Espenberg", picture: "IT WORKS!!!" },
+  { name: "Ana Ornelas", picture: "IT WORKS!!!" },
 ];
 
 export default function Ensemble() {
   return (
     <div className={styles.main}>
       <Header />
-      <main className={styles.section}>
+      <div className={styles["card-container"]}>
         {members.map((member, index) => (
           <MemberCard key={index} member={member} />
         ))}
-      </main>
+      </div>
       <Footer />
     </div>
   );
