@@ -4,7 +4,9 @@ import styles from "./Header.module.css";
 export default function Header() {
   return (
     <header className={styles.header}>
-      <h1 className={styles.logo}>Kinky Playback Theatre</h1>
+      <h1 className={styles.logo}>
+        <Link href="/.">Kinky Playback Theatre</Link>
+      </h1>
       <nav className={styles.navbar}>
         <ul className={styles.ul}>
           <li>
