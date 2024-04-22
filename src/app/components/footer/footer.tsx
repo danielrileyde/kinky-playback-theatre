@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <p className={styles.p}>Made with 🖤 in Berlin</p>
-      <p className={styles.p}>{currentYear}</p>
+      <p className={styles.p}>2023–{currentYear}</p>
     </footer>
   );
 }

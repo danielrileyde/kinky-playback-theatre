@@ -7,8 +7,10 @@ const members = [
   { name: "Daniel Riley-Dittmann", picture: "Hello" },
   { name: "Tanguy Lacroix", picture: "is it working?" },
   { name: "Maya Blau", picture: "I Hope so..." },
-  { name: "Sol Lane", picture: "and?" },
-  { name: "Julia Riley-Dittmann", picture: "IT WORKS!!!" },
+  { name: "Solenne La", picture: "and?" },
+  { name: "Neal Bruewer", picture: "IT WORKS!!!" },
+  { name: "Petros Xenios", picture: "IT WORKS!!!" },
+  { name: "Evelin Espenberg", picture: "IT WORKS!!!" },
 ];
 
 export default function Ensemble() {
