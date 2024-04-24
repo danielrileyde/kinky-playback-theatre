@@ -6,5 +6,9 @@ interface CardProps {
 }
 
 export default function Card({ className, children }: CardProps) {
-  return <div className={`${styles.card} ${className}`}>{children}</div>;
+  return (
+    <section className={`${styles.card__container} ${className}`}>
+      {children}
+    </section>
+  );
 }

@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Header from "../components/Header/Header";
 
 interface FormData {
   firstName: string;
@@ -50,6 +51,7 @@ export default function Contact({}: ContactProps): JSX.Element {
 
   return (
     <div>
+      {/* <Header /> */}
       <h1>Contact Us</h1>
       <form onSubmit={handleSubmit}>
         <div>
@@ -59,7 +61,7 @@ export default function Contact({}: ContactProps): JSX.Element {
             id="firstName"
             value={formData.firstName}
             onChange={handleChange}
-            required
+            // required
           />
         </div>
         <div>
@@ -69,7 +71,7 @@ export default function Contact({}: ContactProps): JSX.Element {
             id="lastName"
             value={formData.lastName}
             onChange={handleChange}
-            required
+            // required
           />
         </div>
         <div>
@@ -79,7 +81,7 @@ export default function Contact({}: ContactProps): JSX.Element {
             id="emailAddress"
             value={formData.emailAddress}
             onChange={handleChange}
-            required
+            // required
           />
         </div>
         <div>
@@ -89,7 +91,7 @@ export default function Contact({}: ContactProps): JSX.Element {
             id="message"
             value={formData.message}
             onChange={handleChange}
-            required
+            // required
           />
         </div>
         <button type="submit">Submit</button>

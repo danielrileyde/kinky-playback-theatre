@@ -1,4 +1,5 @@
 import Card from "./Card";
+import styles from "./Card.module.css";
 
 interface Member {
   name: string;
@@ -11,9 +12,9 @@ interface MemberCardProps {
 
 export default function MemberCard({ member }: MemberCardProps) {
   return (
-    <Card className="name">
-      <p>{member.picture}</p>
-      <p>{member.name}</p>
+    <Card>
+      <section className={styles.card__image}>{member.picture}</section>
+      <p className={styles.card__name}>{member.name}</p>
     </Card>
   );
 }

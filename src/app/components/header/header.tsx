@@ -5,7 +5,9 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <h1 className={styles.logo}>
-        <Link href="/.">Kinky Playback Theatre</Link>
+        <Link className={styles.linkLogo} href="/.">
+          Kinky Playback Theatre
+        </Link>
       </h1>
       <nav className={styles.navbar}>
         <ul className={styles.ul}>
